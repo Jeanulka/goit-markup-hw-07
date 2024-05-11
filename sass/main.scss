@@ -1,17 +1,3 @@
-@import './utils/vars';
-@import './utils/placeholders';
-@import './utils/mixin';
-
-@import './components/header';
-@import './components/logo';
-@import './components/hero';
-@import './components/studio-page';
-@import './components/portfolio-page';
-@import './components/footer';
-@import './components/modal-forms';
-
-
-
 // Обнулення стилів
 h2,
 h3,
@@ -82,6 +68,20 @@ section {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+@import './utils/vars';
+@import './utils/placeholders';
+@import './utils/mixin';
+
+@import './components/header';
+@import './components/logo';
+@import './components/hero';
+@import './components/studio-page';
+@import './components/portfolio-page';
+@import './components/footer';
+@import './components/modal-forms';
+
+
 
 
 
