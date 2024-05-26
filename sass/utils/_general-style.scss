@@ -26,9 +26,8 @@ img {
 // Загальні стилі для body та його елементів
 
 body {
-    font-family: Roboto,
-        sans-serif;
-    font-size: 14px;
+    font-family: $font-family;
+    font-size: $font-size;
 
     color: $text-color;
     background-color: $background-color;

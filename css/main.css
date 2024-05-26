@@ -201,7 +201,7 @@ section {
 }
 
 /* ======================================================
-=================== Our features section ==============
+=================== Features section ==============
 =======================================================*/
 .our-features {
   padding-bottom: 0;
@@ -242,17 +242,17 @@ section {
 }
 
 /* =========================
-What we do Section
+Reviews Section
 ===========================*/
-.what-we-do__list {
+.reviews__list {
   display: flex;
   flex-wrap: wrap;
 }
-.what-we-do__list-item:not(:nth-child(3n)) {
+.reviews__list-item:not(:nth-child(3n)) {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
-.what-we-do__list-item {
+.reviews__list-item {
   position: relative;
 }
 
@@ -273,7 +273,7 @@ What we do Section
 }
 
 /* =======================
-Our Team section 
+Team section 
 ========================*/
 .team {
   background-color: #F5F4FA;
@@ -380,7 +380,7 @@ Clients section
 }
 
 /* ===========================
-Portfolio page  section 
+Portfolio button list style
 ===============================*/
 .portfolio__button-list {
   display: flex;
@@ -418,7 +418,7 @@ Portfolio page  section
 }
 
 /* ========================================
-Портфоліо приклади робіт 
+portfilio examples - cards style
 ========================================*/
 .portfilio__examples-list {
   display: flex;
@@ -472,7 +472,7 @@ Portfolio page  section
 }
 
 /* =====================
-Портфоліо Оверлей 
+portfilio overlay
 =======================*/
 .portfolio__overlay {
   position: relative;
@@ -533,6 +533,9 @@ Portfolio page  section
 .footer__contact-item:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer .social-link__icon {
+  fill: #FFFFFF;
+}
 
 .footer__contact-link {
   display: block;
@@ -562,7 +565,6 @@ Portfolio page  section
 
 .footer__social-link {
   background-color: rgba(255, 255, 255, 0.1019607843);
-  fill: #FFFFFF;
 }
 
 /*=====================================*/

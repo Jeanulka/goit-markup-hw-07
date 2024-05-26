@@ -31,6 +31,9 @@
     &__contact-item:not(:last-child) {
         margin-bottom: 9px;
     }
+    & .social-link__icon {
+        fill: $secondary-color;
+    }
 }
 
 .footer__contact-link {
@@ -43,6 +46,7 @@
     &:focus {
         color: $primary-color;
     }
+ 
 }
 
 .footer__join-us {
@@ -64,6 +68,6 @@
 
 .footer__social-link {
     background-color: #FFFFFF1A;
+} 
 
-    fill: $secondary-color;
-}
+
